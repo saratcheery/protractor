@@ -1,0 +1,18 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "All Application that can be Automated in Apollo",
+  "main": "config.js",
+  "scripts": {
+    "pre": "webdriver-manager update",
+    "test": "protractor config.js"
+  },
+  "author": "Brahmanand Dasre",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "jasmine-spec-reporter": "^5.0.2",
+    "protractor": "^7.0.0",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
